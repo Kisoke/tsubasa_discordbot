@@ -18,13 +18,11 @@ fs.readdir("./tsubasa_commands/", (err, files) => {
         });
     }
 });
-if (process.argv[2] == null || process.argv[2] === undefined)
-    client.login(config.auth_token);
-else client.login(config.auth_token_xiiphoss);
+
+client.login(config.auth_token);
 
 client.on("ready", function () {
-    if (client.token === config.auth_token_xiiphoss) console.log("Bot is connected as Xiiphoss.");
-    else console.log("Bot is connected.");
+    console.log("Bot is connected.");
 });
 
 client.on("message", function (message) {

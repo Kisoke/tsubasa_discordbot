@@ -1,0 +1,15 @@
+{
+  "name": "tsubasa_discordbot",
+  "version": "0.0.1",
+  "description": "Un bot qui soutient",
+  "main": "bot.js",
+  "author": "Gaétan 'Kisoke' Basile",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "ffmpeg": "0.0.4",
+    "node-opus": "^0.2.7",
+    "opusscript": "0.0.4",
+    "request": "^2.83.0",
+    "ytdl-core": "^0.17.1"
+  }
+}

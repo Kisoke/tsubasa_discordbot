@@ -66,3 +66,6 @@ settings.json
 # bot media files
 tsubasa_media/audio/*
 tsubasa_media/pictures/*
+
+# Webstorm files
+.idea/

@@ -5,11 +5,11 @@
   "main": "bot.js",
   "author": "Gaétan 'Kisoke' Basile",
   "dependencies": {
-    "discord.js": "^11.3.2",
+    "discord.js": "^11.4.2",
     "ffmpeg": "0.0.4",
     "node-opus": "^0.2.9",
     "opusscript": "0.0.4",
-    "request": "^2.85.0",
-    "ytdl-core": "^0.20.3"
+    "request": "^2.88.0",
+    "ytdl-core": "^0.20.4"
   }
 }

@@ -1,0 +1,4 @@
+{
+  "auth_token":"your-discord-app-auth-token",
+  "prefix":"!"
+}

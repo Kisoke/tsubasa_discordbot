@@ -2,7 +2,7 @@
   "name": "tsubasa_discordbot",
   "version": "0.0.1",
   "description": "Un bot qui soutient",
-  "main": "bot.js",
+  "main": "index.js",
   "author": "Gaétan 'Kisoke' Basile",
   "dependencies": {
     "discord.js": "^11.4.2",

@@ -1,4 +1,13 @@
 {
-  "auth_token":"your-discord-app-auth-token",
-  "prefix":"!"
+  "auth_token": "your-discord-app-auth-token",
+  "prefix": "!",
+  "auto_react": {
+    "emotes": [
+      "each",
+      "emote",
+      "id",
+      "here"
+    ],
+    "default": false
+  }
 }

@@ -21,11 +21,11 @@ fs.readdir("./tsubasa_commands/", (err, files) => {
 
 client.login(config.auth_token);
 
-client.on("ready", function () {
+client.on("ready", () => {
     console.log("Bot is connected.");
 });
 
-client.on("message", function (message) {
+client.on("message", (message) => {
     if (message.author.equals(client.user)) return;
     if (!message.content.startsWith(config.prefix)) return;
 
@@ -36,8 +36,6 @@ client.on("message", function (message) {
     if (command) command.run(client, message, args);
 });
 
-process.on("SIGINT", function () {
-    client.destroy().then(function () {
-        process.exit();
-    }).catch(console.error);
+process.on("SIGINT", () => {
+    client.destroy().then(process.exit()).catch(console.error);
 });

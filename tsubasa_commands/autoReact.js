@@ -21,7 +21,7 @@ module.exports.run = (client, message, args) => {
             message.channel.send(`le paramètre doit être on/off`);
             break;
     }
-    client.on("message", function (message) {
+    client.on("message", (message) => {
         if (autoRTServers[server.id] === true)
             config.auto_react.emotes.forEach(emoteId => {
                 message.react(emoteId);

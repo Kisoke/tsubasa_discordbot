@@ -69,3 +69,6 @@ tsubasa_media/pictures/*
 
 # Webstorm files
 .idea/
+
+# vscode files
+.vscode/
